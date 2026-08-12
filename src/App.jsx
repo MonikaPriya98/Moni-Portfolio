@@ -217,9 +217,9 @@ export default function App() {
                 <span><SiOpenai /><b>ChatGPT</b></span>
                 <span><SiClaude /><b>Claude</b></span>
                 <span><SiGithubcopilot /><b>GitHub Copilot</b></span>
-                <span><Bot /><b>Tabnine</b></span>
+                {/* <span><Bot /><b>Tabnine</b></span> */}
               </div>
-              <p>Using AI tools for rapid prototyping, code generation, debugging, test creation, documentation and development research.</p>
+              {/* <p>Using AI tools for rapid prototyping, code generation, debugging, test creation, documentation and development research.</p> */}
             </motion.article>
           </div>
         </section>
