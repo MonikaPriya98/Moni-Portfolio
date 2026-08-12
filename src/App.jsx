@@ -163,7 +163,10 @@ export default function App() {
             <div className="portrait-orbit orbit-one" />
             <div className="portrait-orbit orbit-two" />
             <div className="portrait-frame">
-              <img src="/assets/monika-illustrated-portrait-v2.png" alt="Illustrated portrait of Monika Priya, Full Stack Developer" />
+              <img
+                src={`${import.meta.env.BASE_URL}assets/monika-illustrated-portrait-v2.png`}
+                alt="Illustrated portrait of Monika Priya, Full Stack Developer"
+              />
               <div className="portrait-scan" />
             </div>
             <div className="float-card card-code">
